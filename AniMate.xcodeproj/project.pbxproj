@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5037F3CB2B76487700EBBFED /* AniMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3CA2B76487700EBBFED /* AniMateApp.swift */; };
+		5037F3CD2B76487700EBBFED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3CC2B76487700EBBFED /* ContentView.swift */; };
+		5037F3CF2B76487900EBBFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5037F3CE2B76487900EBBFED /* Assets.xcassets */; };
+		5037F3D22B76487900EBBFED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5037F3D12B76487900EBBFED /* Preview Assets.xcassets */; };
+		5037F3DC2B76487900EBBFED /* AniMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3DB2B76487900EBBFED /* AniMateTests.swift */; };
+		5037F3E62B76487900EBBFED /* AniMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3E52B76487900EBBFED /* AniMateUITests.swift */; };
+		5037F3E82B76487900EBBFED /* AniMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3E72B76487900EBBFED /* AniMateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5037F3D82B76487900EBBFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5037F3BF2B76487700EBBFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5037F3C62B76487700EBBFED;
+			remoteInfo = AniMate;
+		};
+		5037F3E22B76487900EBBFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5037F3BF2B76487700EBBFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5037F3C62B76487700EBBFED;
+			remoteInfo = AniMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5037F3C72B76487700EBBFED /* AniMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037F3CA2B76487700EBBFED /* AniMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateApp.swift; sourceTree = "<group>"; };
+		5037F3CC2B76487700EBBFED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5037F3CE2B76487900EBBFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5037F3D12B76487900EBBFED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5037F3D72B76487900EBBFED /* AniMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037F3DB2B76487900EBBFED /* AniMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateTests.swift; sourceTree = "<group>"; };
+		5037F3E12B76487900EBBFED /* AniMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037F3E52B76487900EBBFED /* AniMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateUITests.swift; sourceTree = "<group>"; };
+		5037F3E72B76487900EBBFED /* AniMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5037F3C42B76487700EBBFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3D42B76487900EBBFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3DE2B76487900EBBFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5037F3BE2B76487700EBBFED = {
+			isa = PBXGroup;
+			children = (
+				5037F3C92B76487700EBBFED /* AniMate */,
+				5037F3DA2B76487900EBBFED /* AniMateTests */,
+				5037F3E42B76487900EBBFED /* AniMateUITests */,
+				5037F3C82B76487700EBBFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5037F3C82B76487700EBBFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5037F3C72B76487700EBBFED /* AniMate.app */,
+				5037F3D72B76487900EBBFED /* AniMateTests.xctest */,
+				5037F3E12B76487900EBBFED /* AniMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5037F3C92B76487700EBBFED /* AniMate */ = {
+			isa = PBXGroup;
+			children = (
+				5037F3CA2B76487700EBBFED /* AniMateApp.swift */,
+				5037F3CC2B76487700EBBFED /* ContentView.swift */,
+				5037F3CE2B76487900EBBFED /* Assets.xcassets */,
+				5037F3D02B76487900EBBFED /* Preview Content */,
+			);
+			path = AniMate;
+			sourceTree = "<group>";
+		};
+		5037F3D02B76487900EBBFED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5037F3D12B76487900EBBFED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5037F3DA2B76487900EBBFED /* AniMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5037F3DB2B76487900EBBFED /* AniMateTests.swift */,
+			);
+			path = AniMateTests;
+			sourceTree = "<group>";
+		};
+		5037F3E42B76487900EBBFED /* AniMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5037F3E52B76487900EBBFED /* AniMateUITests.swift */,
+				5037F3E72B76487900EBBFED /* AniMateUITestsLaunchTests.swift */,
+			);
+			path = AniMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5037F3C62B76487700EBBFED /* AniMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037F3EB2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMate" */;
+			buildPhases = (
+				5037F3C32B76487700EBBFED /* Sources */,
+				5037F3C42B76487700EBBFED /* Frameworks */,
+				5037F3C52B76487700EBBFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniMate;
+			productName = AniMate;
+			productReference = 5037F3C72B76487700EBBFED /* AniMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5037F3D62B76487900EBBFED /* AniMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037F3EE2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateTests" */;
+			buildPhases = (
+				5037F3D32B76487900EBBFED /* Sources */,
+				5037F3D42B76487900EBBFED /* Frameworks */,
+				5037F3D52B76487900EBBFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5037F3D92B76487900EBBFED /* PBXTargetDependency */,
+			);
+			name = AniMateTests;
+			productName = AniMateTests;
+			productReference = 5037F3D72B76487900EBBFED /* AniMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5037F3E02B76487900EBBFED /* AniMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037F3F12B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateUITests" */;
+			buildPhases = (
+				5037F3DD2B76487900EBBFED /* Sources */,
+				5037F3DE2B76487900EBBFED /* Frameworks */,
+				5037F3DF2B76487900EBBFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5037F3E32B76487900EBBFED /* PBXTargetDependency */,
+			);
+			name = AniMateUITests;
+			productName = AniMateUITests;
+			productReference = 5037F3E12B76487900EBBFED /* AniMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5037F3BF2B76487700EBBFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5037F3C62B76487700EBBFED = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5037F3D62B76487900EBBFED = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5037F3C62B76487700EBBFED;
+					};
+					5037F3E02B76487900EBBFED = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5037F3C62B76487700EBBFED;
+					};
+				};
+			};
+			buildConfigurationList = 5037F3C22B76487700EBBFED /* Build configuration list for PBXProject "AniMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5037F3BE2B76487700EBBFED;
+			productRefGroup = 5037F3C82B76487700EBBFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5037F3C62B76487700EBBFED /* AniMate */,
+				5037F3D62B76487900EBBFED /* AniMateTests */,
+				5037F3E02B76487900EBBFED /* AniMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5037F3C52B76487700EBBFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037F3D22B76487900EBBFED /* Preview Assets.xcassets in Resources */,
+				5037F3CF2B76487900EBBFED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3D52B76487900EBBFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3DF2B76487900EBBFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5037F3C32B76487700EBBFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037F3CD2B76487700EBBFED /* ContentView.swift in Sources */,
+				5037F3CB2B76487700EBBFED /* AniMateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3D32B76487900EBBFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037F3DC2B76487900EBBFED /* AniMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037F3DD2B76487900EBBFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037F3E82B76487900EBBFED /* AniMateUITestsLaunchTests.swift in Sources */,
+				5037F3E62B76487900EBBFED /* AniMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5037F3D92B76487900EBBFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5037F3C62B76487700EBBFED /* AniMate */;
+			targetProxy = 5037F3D82B76487900EBBFED /* PBXContainerItemProxy */;
+		};
+		5037F3E32B76487900EBBFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5037F3C62B76487700EBBFED /* AniMate */;
+			targetProxy = 5037F3E22B76487900EBBFED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5037F3E92B76487900EBBFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5037F3EA2B76487900EBBFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5037F3EC2B76487900EBBFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AniMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5037F3ED2B76487900EBBFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AniMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5037F3EF2B76487900EBBFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AniMate";
+			};
+			name = Debug;
+		};
+		5037F3F02B76487900EBBFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AniMate";
+			};
+			name = Release;
+		};
+		5037F3F22B76487900EBBFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AniMate;
+			};
+			name = Debug;
+		};
+		5037F3F32B76487900EBBFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheridangomes.AniMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AniMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5037F3C22B76487700EBBFED /* Build configuration list for PBXProject "AniMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037F3E92B76487900EBBFED /* Debug */,
+				5037F3EA2B76487900EBBFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5037F3EB2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037F3EC2B76487900EBBFED /* Debug */,
+				5037F3ED2B76487900EBBFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5037F3EE2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037F3EF2B76487900EBBFED /* Debug */,
+				5037F3F02B76487900EBBFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5037F3F12B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037F3F22B76487900EBBFED /* Debug */,
+				5037F3F32B76487900EBBFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5037F3BF2B76487700EBBFED /* Project object */;
+}

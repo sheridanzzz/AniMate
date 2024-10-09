@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469ABD205F0F320ED9CAC3DD /* Pods_AniMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9840E2B541AB344A8270254D /* Pods_AniMateTests.framework */; };
 		5037F3CB2B76487700EBBFED /* AniMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3CA2B76487700EBBFED /* AniMateApp.swift */; };
 		5037F3CD2B76487700EBBFED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3CC2B76487700EBBFED /* ContentView.swift */; };
 		5037F3CF2B76487900EBBFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5037F3CE2B76487900EBBFED /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		5037F3DC2B76487900EBBFED /* AniMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3DB2B76487900EBBFED /* AniMateTests.swift */; };
 		5037F3E62B76487900EBBFED /* AniMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3E52B76487900EBBFED /* AniMateUITests.swift */; };
 		5037F3E82B76487900EBBFED /* AniMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3E72B76487900EBBFED /* AniMateUITestsLaunchTests.swift */; };
+		5037F3F62B7667E600EBBFED /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037F3F52B7667E600EBBFED /* Network.swift */; };
+		A94CE7E9F2E737D82840AB58 /* Pods_AniMate_AniMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84EDA0CFC5089B39324BF9 /* Pods_AniMate_AniMateUITests.framework */; };
+		F56F63FFEEA1B6FB2F78BFB6 /* Pods_AniMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F935C48970BF43806E2088 /* Pods_AniMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25975651E157D8E429D1915F /* Pods-AniMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMate.release.xcconfig"; path = "Target Support Files/Pods-AniMate/Pods-AniMate.release.xcconfig"; sourceTree = "<group>"; };
+		2E019DBB2FAF6BFCBBCE99F9 /* Pods-AniMate-AniMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMate-AniMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-AniMate-AniMateUITests/Pods-AniMate-AniMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48F935C48970BF43806E2088 /* Pods_AniMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037F3C72B76487700EBBFED /* AniMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037F3CA2B76487700EBBFED /* AniMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateApp.swift; sourceTree = "<group>"; };
 		5037F3CC2B76487700EBBFED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,13 @@
 		5037F3E12B76487900EBBFED /* AniMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037F3E52B76487900EBBFED /* AniMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateUITests.swift; sourceTree = "<group>"; };
 		5037F3E72B76487900EBBFED /* AniMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5037F3F52B7667E600EBBFED /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9840E2B541AB344A8270254D /* Pods_AniMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA25C7A17A29FFC3F6E5693F /* Pods-AniMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMateTests.debug.xcconfig"; path = "Target Support Files/Pods-AniMateTests/Pods-AniMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B32A5D06081BA6189D462A98 /* Pods-AniMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMate.debug.xcconfig"; path = "Target Support Files/Pods-AniMate/Pods-AniMate.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A476AAFE7C8D246E23BA89 /* Pods-AniMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMateTests.release.xcconfig"; path = "Target Support Files/Pods-AniMateTests/Pods-AniMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF84EDA0CFC5089B39324BF9 /* Pods_AniMate_AniMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniMate_AniMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA956603F2C9FDCE87741BD /* Pods-AniMate-AniMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMate-AniMateUITests.release.xcconfig"; path = "Target Support Files/Pods-AniMate-AniMateUITests/Pods-AniMate-AniMateUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56F63FFEEA1B6FB2F78BFB6 /* Pods_AniMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469ABD205F0F320ED9CAC3DD /* Pods_AniMateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94CE7E9F2E737D82840AB58 /* Pods_AniMate_AniMateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,8 @@
 				5037F3DA2B76487900EBBFED /* AniMateTests */,
 				5037F3E42B76487900EBBFED /* AniMateUITests */,
 				5037F3C82B76487700EBBFED /* Products */,
+				E1D000E6ED44930098151B41 /* Pods */,
+				51C28BDC43E86F0315D74F85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 				5037F3CA2B76487700EBBFED /* AniMateApp.swift */,
 				5037F3CC2B76487700EBBFED /* ContentView.swift */,
 				5037F3CE2B76487900EBBFED /* Assets.xcassets */,
+				5037F3F52B7667E600EBBFED /* Network.swift */,
 				5037F3D02B76487900EBBFED /* Preview Content */,
 			);
 			path = AniMate;
@@ -127,6 +147,29 @@
 			path = AniMateUITests;
 			sourceTree = "<group>";
 		};
+		51C28BDC43E86F0315D74F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F935C48970BF43806E2088 /* Pods_AniMate.framework */,
+				DF84EDA0CFC5089B39324BF9 /* Pods_AniMate_AniMateUITests.framework */,
+				9840E2B541AB344A8270254D /* Pods_AniMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D000E6ED44930098151B41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B32A5D06081BA6189D462A98 /* Pods-AniMate.debug.xcconfig */,
+				25975651E157D8E429D1915F /* Pods-AniMate.release.xcconfig */,
+				2E019DBB2FAF6BFCBBCE99F9 /* Pods-AniMate-AniMateUITests.debug.xcconfig */,
+				EEA956603F2C9FDCE87741BD /* Pods-AniMate-AniMateUITests.release.xcconfig */,
+				AA25C7A17A29FFC3F6E5693F /* Pods-AniMateTests.debug.xcconfig */,
+				B7A476AAFE7C8D246E23BA89 /* Pods-AniMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5037F3EB2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMate" */;
 			buildPhases = (
+				13425663C3CDCD742179EDE3 /* [CP] Check Pods Manifest.lock */,
 				5037F3C32B76487700EBBFED /* Sources */,
 				5037F3C42B76487700EBBFED /* Frameworks */,
 				5037F3C52B76487700EBBFED /* Resources */,
+				3B6D87662FAAC71295648CC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5037F3EE2B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateTests" */;
 			buildPhases = (
+				7C0014B2DD7A148E02E18716 /* [CP] Check Pods Manifest.lock */,
 				5037F3D32B76487900EBBFED /* Sources */,
 				5037F3D42B76487900EBBFED /* Frameworks */,
 				5037F3D52B76487900EBBFED /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5037F3F12B76487900EBBFED /* Build configuration list for PBXNativeTarget "AniMateUITests" */;
 			buildPhases = (
+				AAA328C2C029C87C9E1D367D /* [CP] Check Pods Manifest.lock */,
 				5037F3DD2B76487900EBBFED /* Sources */,
 				5037F3DE2B76487900EBBFED /* Frameworks */,
 				5037F3DF2B76487900EBBFED /* Resources */,
+				D30C637C1B13DBCC1B05C066 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 5037F3BE2B76487700EBBFED;
+			packageReferences = (
+				5037F3F42B7667B800EBBFED /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 5037F3C82B76487700EBBFED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +303,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13425663C3CDCD742179EDE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6D87662FAAC71295648CC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniMate/Pods-AniMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniMate/Pods-AniMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AniMate/Pods-AniMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0014B2DD7A148E02E18716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA328C2C029C87C9E1D367D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniMate-AniMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30C637C1B13DBCC1B05C066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniMate-AniMateUITests/Pods-AniMate-AniMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniMate-AniMateUITests/Pods-AniMate-AniMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AniMate-AniMateUITests/Pods-AniMate-AniMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5037F3C32B76487700EBBFED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +413,7 @@
 			files = (
 				5037F3CD2B76487700EBBFED /* ContentView.swift in Sources */,
 				5037F3CB2B76487700EBBFED /* AniMateApp.swift in Sources */,
+				5037F3F62B7667E600EBBFED /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +487,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +550,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +571,7 @@
 		};
 		5037F3EC2B76487900EBBFED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32A5D06081BA6189D462A98 /* Pods-AniMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +600,7 @@
 		};
 		5037F3ED2B76487900EBBFED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25975651E157D8E429D1915F /* Pods-AniMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +629,7 @@
 		};
 		5037F3EF2B76487900EBBFED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA25C7A17A29FFC3F6E5693F /* Pods-AniMateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +649,7 @@
 		};
 		5037F3F02B76487900EBBFED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A476AAFE7C8D246E23BA89 /* Pods-AniMateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +669,7 @@
 		};
 		5037F3F22B76487900EBBFED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E019DBB2FAF6BFCBBCE99F9 /* Pods-AniMate-AniMateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +687,7 @@
 		};
 		5037F3F32B76487900EBBFED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA956603F2C9FDCE87741BD /* Pods-AniMate-AniMateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +743,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5037F3F42B7667B800EBBFED /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5037F3BF2B76487700EBBFED /* Project object */;
 }

@@ -1,0 +1,6 @@
+framework module Pods_AniMate_AniMateUITests {
+  umbrella header "Pods-AniMate-AniMateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
